@@ -1,13 +1,14 @@
 
 
 This archive contains the distribution Dist-Zilla-Plugin-LatestPrereqs,
-version 0.2:
+version 0.3:
 
   adjust prereqs to use latest version available
 
-This software is copyright (c) 2010 by Pedro Melo.
+This software is Copyright (c) 2010 by Pedro Melo.
 
-This is free software; you can redistribute it and/or modify it under
-the same terms as the Perl 5 programming language system itself.
+This is free software, licensed under:
+
+  The Artistic License 2.0
 
 

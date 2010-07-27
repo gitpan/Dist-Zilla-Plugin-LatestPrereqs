@@ -6,138 +6,17 @@ build_requires:
   Test::More: 0.92
 configure_requires:
   ExtUtils::MakeMaker: 6.31
-generated_by: 'Dist::Zilla version 2.100880'
-license: perl
+dynamic_config: 0
+generated_by: 'Dist::Zilla version 4.101900, CPAN::Meta::Converter version 2.101670'
+license: artistic_2
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: 1.4
 name: Dist-Zilla-Plugin-LatestPrereqs
 requires:
   CPAN: 1.9402
-  Dist::Zilla: 2.0
+  CPAN::Meta::Prereqs: 2.101670
+  Dist::Zilla: 4.0
 resources:
-  repository: http://github.com/melo/dist-zilla-tools
-version: 0.2
-x_Dist_Zilla:
-  plugins:
-    -
-      class: Dist::Zilla::Plugin::GatherDir
-      name: '@Classic/GatherDir'
-      version: 2.100880
-    -
-      class: Dist::Zilla::Plugin::PruneCruft
-      name: '@Classic/PruneCruft'
-      version: 2.100880
-    -
-      class: Dist::Zilla::Plugin::ManifestSkip
-      name: '@Classic/ManifestSkip'
-      version: 2.100880
-    -
-      class: Dist::Zilla::Plugin::MetaYAML
-      name: '@Classic/MetaYAML'
-      version: 2.100880
-    -
-      class: Dist::Zilla::Plugin::License
-      name: '@Classic/License'
-      version: 2.100880
-    -
-      class: Dist::Zilla::Plugin::Readme
-      name: '@Classic/Readme'
-      version: 2.100880
-    -
-      class: Dist::Zilla::Plugin::PkgVersion
-      name: '@Classic/PkgVersion'
-      version: 2.100880
-    -
-      class: Dist::Zilla::Plugin::PodVersion
-      name: '@Classic/PodVersion'
-      version: 2.100880
-    -
-      class: Dist::Zilla::Plugin::PodCoverageTests
-      name: '@Classic/PodCoverageTests'
-      version: 2.100880
-    -
-      class: Dist::Zilla::Plugin::PodSyntaxTests
-      name: '@Classic/PodSyntaxTests'
-      version: 2.100880
-    -
-      class: Dist::Zilla::Plugin::ExtraTests
-      name: '@Classic/ExtraTests'
-      version: 2.100880
-    -
-      class: Dist::Zilla::Plugin::ExecDir
-      name: '@Classic/ExecDir'
-      version: 2.100880
-    -
-      class: Dist::Zilla::Plugin::ShareDir
-      name: '@Classic/ShareDir'
-      version: 2.100880
-    -
-      class: Dist::Zilla::Plugin::MakeMaker
-      name: '@Classic/MakeMaker'
-      version: 2.100880
-    -
-      class: Dist::Zilla::Plugin::Manifest
-      name: '@Classic/Manifest'
-      version: 2.100880
-    -
-      class: Dist::Zilla::Plugin::ConfirmRelease
-      name: '@Classic/ConfirmRelease'
-      version: 2.100880
-    -
-      class: Dist::Zilla::Plugin::UploadToCPAN
-      name: '@Classic/UploadToCPAN'
-      version: 2.100880
-    -
-      class: Dist::Zilla::Plugin::MetaResources
-      name: MetaResources
-      version: 2.100880
-    -
-      class: Dist::Zilla::Plugin::CheckChangeLog
-      name: CheckChangeLog
-      version: 0.01
-    -
-      class: Dist::Zilla::Plugin::MetaTests
-      name: MetaTests
-      version: 2.100880
-    -
-      class: Dist::Zilla::Plugin::Prereq
-      config:
-        Dist::Zilla::Plugin::Prereq:
-          phase: runtime
-          type: requires
-      name: Prereq
-      version: 2.100880
-    -
-      class: Dist::Zilla::Plugin::Prereq
-      config:
-        Dist::Zilla::Plugin::Prereq:
-          phase: build
-          type: requires
-      name: TestRequires
-      version: 2.100880
-    -
-      class: Dist::Zilla::Plugin::MetaConfig
-      name: MetaConfig
-      version: 2.100880
-    -
-      class: Dist::Zilla::Plugin::FinderCode
-      name: ':InstallModules'
-      version: 2.100880
-    -
-      class: Dist::Zilla::Plugin::FinderCode
-      name: ':TestFiles'
-      version: 2.100880
-    -
-      class: Dist::Zilla::Plugin::FinderCode
-      name: ':ExecFiles'
-      version: 2.100880
-    -
-      class: Dist::Zilla::Plugin::FinderCode
-      name: ':ShareFiles'
-      version: 2.100880
-  zilla:
-    class: Dist::Zilla
-    config:
-      is_trial: 0
-    version: 2.100880
+  repository: http://github.com/melo/dist-zilla-tools.git
+version: 0.3
