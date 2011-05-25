@@ -4,7 +4,7 @@
       "Pedro Melo <melo@cpan.org>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Dist::Zilla version 4.101900, CPAN::Meta::Converter version 2.101670",
+   "generated_by" : "Dist::Zilla version 4.200006, CPAN::Meta::Converter version 2.110930",
    "license" : [
       "artistic_2"
    ],
@@ -16,14 +16,15 @@
    "prereqs" : {
       "configure" : {
          "requires" : {
-            "ExtUtils::MakeMaker" : "6.31"
+            "ExtUtils::MakeMaker" : "6.30"
          }
       },
       "runtime" : {
          "requires" : {
             "CPAN" : "1.9402",
             "CPAN::Meta::Prereqs" : "2.101670",
-            "Dist::Zilla" : "4.0"
+            "Dist::Zilla" : "4.0",
+            "Module::CoreList" : 0
          }
       },
       "test" : {
@@ -40,6 +41,6 @@
          "web" : "http://github.com/melo/dist-zilla-tools"
       }
    },
-   "version" : "0.3"
+   "version" : "0.4"
 }
 
